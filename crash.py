@@ -12,6 +12,10 @@ except:
     t.sleep(3)
     os.system("pip install pyfiglet")
 try:
+    import update_check
+except:
+    os.system("pip install update-check")
+try:
     import colorama
 except:
     os.system ("pip install colorama")
@@ -20,6 +24,10 @@ colorama.init(autoreset=True)
 os.system("clear")
 print(Fore.RED + "WhatsApp Crash: This tool is meant for malicious purposely only☠️☠️💀\n\nLet\'s act and stay wicked 😠😠😡🤬\n\nWe don\'t forgive and forget 😈😈\n\nLet us crash WhatsApp 😠😡😡😡")
 t.sleep(5)
+from update_check import isUpToDate, update
+if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py") == False:
+    print(Fore.RED + "This version is outdated, will update the tool in a minute")
+    update("crash.py",  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py")
 def loop():
     os.system("clear")
     head = pyfiglet.figlet_format("WhatsApp Crash")
