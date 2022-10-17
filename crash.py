@@ -26,7 +26,8 @@ print(Fore.RED + "WhatsApp Crash: This tool is meant for malicious purposely onl
 t.sleep(5)
 from update_check import isUpToDate, update
 if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py") == False:
-    print(Fore.RED + "This version is outdated, will update the tool in a minute")
+    print(Fore.YELLOW + "This version is outdated, will update the tool in a minute")
+    t.sleep(2)
     update("crash.py",  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py")
 def loop():
     os.system("clear")
