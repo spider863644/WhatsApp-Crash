@@ -37,7 +37,7 @@ def loop():
     print(Fore.GREEN + "😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😈Wickedness Only😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😡☠️\n\n"
     )
     header = input(Fore.YELLOW + "Enter message header: ")
-    if len(header) > 20:
+    if len(header) > 21:
         print(Fore.RED + "Header shouldn\'t be greater than 20 characters[Space included]")
         t.sleep(3)
         loop()
