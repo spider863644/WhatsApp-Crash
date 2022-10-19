@@ -26,7 +26,8 @@ print(Fore.RED + "WhatsApp Crash: This tool is meant for malicious purposely onl
 t.sleep(3)
 from update_check import isUpToDate, update
 if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py") == False:
-    print(Fore.RED + "This version is outdated, will update the tool in a minute")
+    print(Fore.YELLOW+ "This version is outdated, will update the tool in a minute")
+    t.sleep(3)
     update("crash.py",  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py")
 def loop():
     os.system("clear")
@@ -37,7 +38,7 @@ def loop():
     print(Fore.GREEN + "😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😈Wickedness Only😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😡☠️\n\n"
     )
     header = input(Fore.YELLOW + "Enter message header: ")
-    if len(header) > 21:
+    if len(header) > 20:
         print(Fore.RED + "Header shouldn\'t be greater than 20 characters[Space included]")
         t.sleep(3)
         loop()
