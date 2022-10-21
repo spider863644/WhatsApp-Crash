@@ -1,6 +1,7 @@
 import os
 import time as t
 import urllib.parse
+os.system("pip install --upgrade pip")
 try:
     import urllib.request
 except:
@@ -41,6 +42,7 @@ def loop():
 [1] Crash WhatsApp
 [2] Join my telegram channel
 [3] Join our WhatsApp group
+[4] Exit Program
     """)
     try:
         menu = int(input(Fore.GREEN + "Enter an option: "))
@@ -78,6 +80,10 @@ def loop():
         os.system("xdg-open https://t.me/termuxhackz_society")
     elif menu == 3:
         os.system("xdg-open https://chat.whatsapp.com/IWqGOsJPjkp2vXcMSJKYns")
+    elif menu == 4:
+        print(Fore.BLUE + "Thanks for using\nKindly follow me on github")
+        t.sleep(2)
+        os.system("xdg-open https://github.com/spider863644")
     else:
         print(Fore.RED + "Invalid option")
     cont = input(Fore.YELLOW + "Do you wanna continue?[y/n]: ").upper().strip()
