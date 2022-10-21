@@ -30,6 +30,8 @@ if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/WhatsAp
     print(Fore.YELLOW+ "This version is outdated, will update the tool in a minute")
     t.sleep(3)
     update("crash.py",  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py")
+    print(Fore.GREEN + "Updated\nRun tool again")
+    exit()
 def loop():
     os.system("clear")
     head = pyfiglet.figlet_format("WhatsApp Crash")
