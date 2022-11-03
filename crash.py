@@ -129,6 +129,6 @@ def loop():
     else:
         print(Fore.RED + "It can't be empty or can\'t contains any other world apart from \"N\" or \"Y\"\nIt has been seen has typo error\nIt has been set to 'Yes' as default")
         t.sleep(3)
-        loop('')
+        loop()
         
 loop()
