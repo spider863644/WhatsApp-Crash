@@ -95,7 +95,7 @@ def loop():
     elif menu == 3:
         os.system("xdg-open https://t.me/termuxhackz_society")
     elif menu == 4:
-        os.system("xdg-open https://chat.whatsapp.com/IWqGOsJPjkp2vXcMSJKYns")
+        os.system("https://chat.whatsapp.com/FwV6Pc1sNfZBckFPQI8Bs4")
     elif menu == 5:
         print(Fore.BLUE + "Thanks for using\nKindly follow me on github")
         t.sleep(2)
