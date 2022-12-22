@@ -43,7 +43,7 @@ def loop():
     os.system("clear")
     head = pyfiglet.figlet_format("WhatsApp Crash")
     print(Fore.RED + head)
-    print(Fore.YELLOW + "Version 1.6".center(70))
+    print(Fore.YELLOW + "Version 1.7".center(70))
     print(Fore.CYAN + "\nThis tool was created by Spider Anongreyhat\n\nFind me on WhatsApp:+2349052863644👨‍💻👨‍💻\n\n\n")
     print(Fore.GREEN + "😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😈Wickedness Only😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😈😈😈😈😈😡☠️\n\n"
     )
