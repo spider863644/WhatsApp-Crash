@@ -100,8 +100,9 @@ def loop():
         print(Fore.BLUE + "Thanks for using\nKindly follow me on github")
         t.sleep(2)
         os.system("xdg-open https://github.com/spider863644")
+        exit()
     elif menu == 6:
-        print(Fore.GREEN + 'Version is 1.5')
+        print(Fore.GREEN + 'Version is 1.7')
     elif menu == 2:
         header = input(Fore.YELLOW + "Enter message header: ")
         if len(header) > 1000:
